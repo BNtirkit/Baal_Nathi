@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BN Community - Become BN</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="sticker.png" alt="BN Community Logo">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="history.html">History</a>
+                <a href="become-bn.html" class="active">Become BN</a>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Become BN Section -->
+    <main class="become-bn-page">
+        <div class="container">
+            <h2>Become a BN</h2>
+            <p class="join-intro">Join our vibrant community of BN people and be part of something special.
+                Fill out the form below to start your BN journey!</p>
+            
+            <form id="join-form" class="join-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Why do you want to join BN?</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Submit Application</button>
+            </form>
+
+            <div class="benefits">
+                <h3>Benefits of Being a BN</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <i class="fas fa-hands-helping"></i>
+                        <h4>Community Support</h4>
+                        <p>Get support from fellow BN members and be part of a caring community.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-calendar-check"></i>
+                        <h4>Exclusive Events</h4>
+                        <p>Access to special BN events and activities throughout the year.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h4>Personal Growth</h4>
+                        <p>Opportunities for personal development and learning within the BN community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="sticker.png" alt="BN Community Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="history.html">History</a>
+                    <a href="become-bn.html">Become BN</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© BN Community. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
